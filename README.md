@@ -1,25 +1,7 @@
-# Domino Releases
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/unytco/domino-releases?style=for-the-badge)
-![GitHub All Releases](https://img.shields.io/github/downloads/unytco/domino-releases/total?style=for-the-badge)
+# Domino-Holofuel Releases
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/unytco/release-domino-holofuel?style=for-the-badge)
+![GitHub All Releases](https://img.shields.io/github/downloads/unytco/release-domino-holofuel/total?style=for-the-badge)
 
-
-## Related docs
-
-- [Test Plan](./testing_docs/1_0_testing_plan.md)
-- [Domino Setup](./README.md)
-- [Testing Documentation, Phase 3](./testing_docs/3_0_phase_3_testing_details.md)
-- [Domino Dictionary](./testing_docs/3_2_domino-dictionary.md)
-- [Intro to Smart Agreements (Three Layers)](./testing_docs/3_1_intro_to_smart_agreements.md)
-- [Templates and Smart Agreements Library Repo](https://github.com/unytco/rave_library)
-- [Feedback](https://github.com/orgs/unytco/projects/5/views/1)
-
-## Intro
-Domino is a Holochain based application for creating agent-centric, peer-to-peer, Mutual Credit accounting systems with smart contract like functionality.
-
-We are working with potential partner projects like yours as we build out this software to ensure that it meets the needs of your team as well as your community of users.
-
-## Overview
-This [Test Plan](./testing_docs/1_0_testing_plan.md) document gives a bit of a overview of the sorts of UX / UI feedback that we are seeking at present.
 
 ## Installation
 
@@ -27,10 +9,10 @@ Download the appropriate version for your system.
 
 | Releases                 |
 |--------------------------|
-| [macOS x64 (Intel)](https://downloads.unyt.co/macos-x64)            |
-| [macOS arm64 (Silicon)](https://downloads.unyt.co/macos-arm64)      |
-| [Linux Debian](https://downloads.unyt.co/linux-deb) (recommended)    |
-| [Linux AppImage](https://downloads.unyt.co/linux-appimage) (read note below) |
+| [macOS x64 (Intel)](https://github.com/unytco/release-domino-holofuel/releases)            |
+| [macOS arm64 (Silicon)](https://github.com/unytco/release-domino-holofuel/releases)      |
+| [Linux Debian](https://github.com/unytco/release-domino-holofuel/releases) (recommended)    |
+| [Linux AppImage](https://github.com/unytco/release-domino-holofuel/releases) (read note below) |
 | [Windows](https://downloads.unyt.co/windows)                         |
 | [Android](#) (no release available)                                  |
 | [iOS](#) (no release available)                                      |
@@ -45,7 +27,7 @@ Download the appropriate version for your system.
 
 
 All available versions can be found in the [Releases](
-https://github.com/unytco/domino-releases/releases)
+https://github.com/unytco/release-domino-holofuel/releases)
 
 Once installed, set up Domino either with a password or without a password. In either case, the software will run locally on your device and your password will not leave your device. 
 
@@ -57,13 +39,6 @@ Note: The release for your operating system may not be code signed yet, so you m
 When you open Domino on your operating system for the first time, it will create a set of public and private keys for you that you can use to interact with others. These are stored in a private keystore (Lair) on your own machine and are used during future uses. 
 
 To get started, you can try sending, executing, and receiving transactions either with friends that have also downloaded Domino, or with team members from the Development Team.
-
-for v0.13.0:
-Matthew's Public Key is:
-`uhCAkOKFD_M3OuSQ8q-oEMSC-gKOHIJuchdp8eS1W1jnWPnWAW65F`
-
-Jarod's Public Key is:
-`uhCAkBNcC5msV7syB9I71XS18GMQDugPMQ6N6XQsU2cVHr5Y-YgWc`
 
 ## Starting Fresh
 Details on removal and reinstallation.
@@ -84,14 +59,12 @@ cd ~/Library/Application\ Support
 ```
 
 ```
-rm -rf co.unyt.domino
+rm -rf co.unyt.domino.holofuel
 ```
 
-That co.unyt.domino file had your local data in it.
+That co.unyt.domino.holofuel file had your local data in it.
 
 Now that it is deleted, you can again install domino and start fresh with a new account.
-
-Next, dive into the [Test Plan](./testing_docs/1_0_testing_plan.md).
 
 ## License
 
