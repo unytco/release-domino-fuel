@@ -1,4 +1,4 @@
-# Domino-Holofuel Releases
+# Domino-Fuel Releases
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/unytco/release-domino-holofuel?style=for-the-badge)
 ![GitHub All Releases](https://img.shields.io/github/downloads/unytco/release-domino-holofuel/total?style=for-the-badge)
 
